@@ -3,6 +3,7 @@ import React, {useState}  from 'react';
 import './App.css';
 import Header  from './components/Header';
 import PageContent from './components/PageContent';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -11,7 +12,10 @@ function App() {
   <div>
  <Header setCurrentPage= {setCurrentPage}/>
  <PageContent currentPage={currentPage}/>
+
  </div>
+
+
   );
 }
 
