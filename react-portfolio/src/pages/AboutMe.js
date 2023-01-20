@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMe = () => {
     return (
-        <div>
+        <div style={{  minHeight: '60vh'}}>
                 <p>About content</p>
         </div>
     )

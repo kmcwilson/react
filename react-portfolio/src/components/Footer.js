@@ -1,10 +1,25 @@
 import React from 'react';
 
+const styles = {
+  footer: {
+    position:'relative',
+    bottom: '0px',
+    left: '0px',
+    width: '100%',
+    height: '150px',
+    backgroundColor: 'rgb(25, 79, 64)',
+    color: 'white',
+    textAlign: 'center',
+    fontFamily: 'Playfair', 
+  }
+}
+
 const Footer = () => {
   return (
-    <footer className="w-100 mt-auto bg-secondary p-4">
+    <div>
+    <footer style= {styles.footer}>
       <div className="container text-center mb-5">
-        <h4>
+        <h4 style={{paddingTop: '50px'}}>
           Made with{' '}
           <span
             className="emoji"
@@ -18,6 +33,7 @@ const Footer = () => {
         </h4>
       </div>
     </footer>
+    </div>
   );
 };
 

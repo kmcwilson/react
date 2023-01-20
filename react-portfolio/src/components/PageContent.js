@@ -17,8 +17,8 @@ export default function PageContent ({currentPage}) {
     }
     return(
         <>
-        <h2 style={{textTransform:"capitalize"}}>{currentPage}</h2>
-        <div>{renderPage()}</div>
+        <h2 className="page-header"style={{textTransform:"capitalize", textAlign: 'center', paddingBottom: '50px'}}>{currentPage}</h2>
+        <div className='container'>{renderPage()}</div>
         </>
     )
 

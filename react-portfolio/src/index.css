@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+:root {
+--yellow: rgb(236, 240, 225);
+--mauve:  #935c68ff;
+--green: rgb(25, 79, 64);
+--black: #0d0d0dff;
+--pink: #f6aa9dff;
+}
+html {
+  background: var(--yellow);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.page-background {
+  /* background: var(--yellow);   */
+  background-image: url('rainbow-smoke.jpeg')
+}
+header{
+  font-family: 'Playfair', sans-serif;
+  padding-top: '20px';
+  color: var(--mauve);
+}
+
+.clicked {
+  border-color: var(--mauve);
+  border-style: double;
+}
+
+.page-header{
+  background: var(--yellow);
+  text-transform:"capitalize"; 
+  text-align: 'center';
+  color: var(--green);
+  font-family: 'Playfair', sans-serif;
+}
+.card-info {
+  height: 350px;
+  padding: 15px;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 5px;
+  opacity: 0;
+}
+.single-project {
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:100% 95%; /* Resize the background image to cover the entire container */
+  height: 350px;
+  width: 350px;
+  margin-bottom: 50px;
+  border-style: solid;
+  border-color: #935c68ff;
+  border-width: 3px;
+  box-shadow: 10px 10px 5px var(--mauve);
+}
+
+
+.card-info:hover {
+  opacity: 0.9;
 }

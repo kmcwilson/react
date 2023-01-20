@@ -9,10 +9,10 @@ import Footer from './components/Footer';
 function App() {
   const [currentPage, setCurrentPage]=  useState('home')
   return (
-  <div>
- <Header setCurrentPage= {setCurrentPage}/>
+  <div className="page-background">
+ <Header setCurrentPage= {setCurrentPage} currentPage={currentPage}/>
  <PageContent currentPage={currentPage}/>
-
+<Footer/>
  </div>
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div>
+        <div style={{  minHeight: '60vh'}}>
             <p>Home content</p>
         </div>
     )
