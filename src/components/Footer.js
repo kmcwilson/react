@@ -7,8 +7,8 @@ const styles = {
     left: '0px',
     width: '100%',
     height: '150px',
-    backgroundColor: 'rgb(25, 79, 64)',
-    color: 'white',
+    backgroundColor: 'rgb(236, 240, 225)',
+    color: 'rgb(25, 79, 64)',
     textAlign: 'center',
     fontFamily: 'Playfair', 
   }
@@ -29,7 +29,7 @@ const Footer = () => {
           >
             ❤️
           </span>{' '}
-          by the Tech Thoughts team.
+          by Katie Wilson
         </h4>
       </div>
     </footer>

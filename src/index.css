@@ -8,13 +8,12 @@
 --black: #0d0d0dff;
 --pink: #f6aa9dff;
 }
-html {
-  background: var(--yellow);
-}
 
 .page-background {
   /* background: var(--yellow);   */
-  background-image: url('rainbow-smoke.jpeg')
+  background-image: url('/public/light-pastel.jpeg');
+  background-size: 100% 100%;
+
 }
 header{
   font-family: 'Playfair', sans-serif;
@@ -28,7 +27,6 @@ header{
 }
 
 .page-header{
-  background: var(--yellow);
   text-transform:"capitalize"; 
   text-align: 'center';
   color: var(--green);
