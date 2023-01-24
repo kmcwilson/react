@@ -16,7 +16,7 @@ const Projects = () => {
                     image={project.image}
                     description={project.description}
                     url={project.url}
-                    github={project.github} />))}
+                    gitHub={project.gitHub} />))}
         </div>
     )
 }

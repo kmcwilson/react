@@ -27,7 +27,7 @@ const projectList=[
         id:4, 
         title: 'Password-Generator', 
         image: 'password-generator.png',
-        description:'Application randomlu generates a password according to the user input', 
+        description:'Application randomly generates a password according to the user input', 
         url:'https://kmcwilson.github.io/Password-Generator/',
         gitHub:'https://github.com/kmcwilson/Password-Generator'
     }, 
